@@ -18,7 +18,7 @@ st.set_page_config(
 @st.cache_resource
 def load_artifacts():
     return {
-        "Model": pickle.load(open("logistic_regression_model.pkl", "rb")),
+        "Model": pickle.load(open("logistic_regression_model (1).pkl", "rb")),
         "Scaler": pickle.load(open("scaler.pkl", "rb")),
         "Feature_Order": pickle.load(open("feature_order.pkl", "rb"))
     }
